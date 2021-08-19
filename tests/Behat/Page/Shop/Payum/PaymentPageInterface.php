@@ -7,6 +7,7 @@
 */
 
 declare(strict_types=1);
+
 namespace Tests\BitBag\SyliusMultiSafepayPlugin\Behat\Page\Shop\Payum;
 
 use FriendsOfBehat\PageObjectExtension\Page\PageInterface;

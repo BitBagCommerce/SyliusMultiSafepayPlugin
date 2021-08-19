@@ -7,6 +7,7 @@
 */
 
 declare(strict_types=1);
+
 namespace Tests\BitBag\SyliusMultiSafepayPlugin\Behat\Context\Ui\Shop;
 
 use Behat\Behat\Context\Context;

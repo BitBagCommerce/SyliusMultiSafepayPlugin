@@ -7,6 +7,7 @@
 */
 
 declare(strict_types=1);
+
 namespace BitBag\SyliusMultiSafepayPlugin\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;

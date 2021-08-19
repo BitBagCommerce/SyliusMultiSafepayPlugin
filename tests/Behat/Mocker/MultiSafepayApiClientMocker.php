@@ -7,6 +7,7 @@
 */
 
 declare(strict_types=1);
+
 namespace Tests\BitBag\SyliusMultiSafepayPlugin\Behat\Mocker;
 
 use BitBag\SyliusMultiSafepayPlugin\ApiClient\MultiSafepayApiClientInterface;

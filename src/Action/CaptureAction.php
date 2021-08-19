@@ -7,6 +7,7 @@
 */
 
 declare(strict_types=1);
+
 namespace BitBag\SyliusMultiSafepayPlugin\Action;
 
 use BitBag\SyliusMultiSafepayPlugin\Action\Api\ApiAwareTrait;

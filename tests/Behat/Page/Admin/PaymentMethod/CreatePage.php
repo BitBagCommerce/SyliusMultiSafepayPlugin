@@ -7,6 +7,7 @@
 */
 
 declare(strict_types=1);
+
 namespace Tests\BitBag\SyliusMultiSafepayPlugin\Behat\Page\Admin\PaymentMethod;
 
 use Behat\Mink\Element\NodeElement;

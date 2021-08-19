@@ -7,6 +7,7 @@
 */
 
 declare(strict_types=1);
+
 namespace BitBag\SyliusMultiSafepayPlugin\PaymentProcessing;
 
 use Sylius\Component\Core\Model\PaymentInterface;
