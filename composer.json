@@ -5,9 +5,9 @@
     "description": "MultiSafepay payment plugin for Sylius applications.",
     "license": "MIT",
     "require": {
-        "php": "^7.3 || ^8.0",
+        "php": "^7.4 || ^8.0",
         "multisafepay/api": "^2.0",
-        "sylius/sylius": "~1.8.0 || ~1.9.0 || ~1.10.0"
+        "sylius/sylius": "~1.9.0 || ~1.10.0 || ~1.11.0"
     },
     "require-dev": {
         "behat/behat": "^3.6.1",
@@ -38,7 +38,8 @@
         "symfony/intl": "^4.4 || ^5.2",
         "symfony/web-profiler-bundle": "^4.4 || ^5.2",
         "symplify/easy-coding-standard": "^8.3",
-        "vimeo/psalm": "4.6.4"
+        "vimeo/psalm": "4.6.4",
+        "polishsymfonycommunity/symfony-mocker-container": "^1.0"
     },
     "config": {
         "sort-packages": true
