@@ -43,4 +43,4 @@ default:
 
                 - bitbag_sylius_multisafepay_plugin.behat.context.ui.shop.checkout
             filters:
-                tags: "@paying_with_multisafepay_for_order && @ui"
+                tags: "@paying_with_multisafepay_for_order&&@ui"

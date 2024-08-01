@@ -1,10 +1,11 @@
 <?php
 
 /*
- * This file was created by developers working at BitBag
- * Do you need more information about us and what we do? Visit our https://bitbag.io website!
- * We are hiring developers from all over the world. Join us and start your new, exciting adventure and become part of us: https://bitbag.io/career
-*/
+ * This file has been created by developers from BitBag.
+ * Feel free to contact us once you face any issues or want to start
+ * You can find more information about us on https://bitbag.io and write us
+ * an email on hello@bitbag.io.
+ */
 
 declare(strict_types=1);
 
@@ -28,7 +29,7 @@ class MultiSafepayApiClient implements MultiSafepayApiClientInterface
         string $apiKey,
         string $type,
         bool $sandbox = true,
-        bool $allowMultiCurrency = false
+        bool $allowMultiCurrency = false,
     ): void {
         $this->type = $type;
         $this->allowMultiCurrency = $allowMultiCurrency;
@@ -36,7 +37,7 @@ class MultiSafepayApiClient implements MultiSafepayApiClientInterface
         $this->client = new Client();
         $this->client->setApiKey($apiKey);
         $this->client->setApiUrl(
-            $sandbox ? self::API_URL_TEST : self::API_URL_LIVE
+            $sandbox ? self::API_URL_TEST : self::API_URL_LIVE,
         );
     }
 
@@ -65,7 +66,7 @@ class MultiSafepayApiClient implements MultiSafepayApiClientInterface
     public function refund(
         string $orderId,
         int $amount,
-        string $currencyCode
+        string $currencyCode,
     ): void {
         $endpoint = sprintf('orders/%s/refunds', $orderId);
 

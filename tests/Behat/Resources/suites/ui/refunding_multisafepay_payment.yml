@@ -55,4 +55,4 @@ default:
 
                 - bitbag_sylius_multisafepay_plugin.behat.context.ui.admin.refund
             filters:
-                tags: "@refunding_multisafepay_payment && @ui"
+                tags: "@refunding_multisafepay_payment&&@ui"
